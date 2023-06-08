@@ -139,11 +139,11 @@ const experiences = [
     },
     {
         title: "Graphic Designer (Intern)",
-        company_name: "Wextern Developer",
+        company_name: "GreaySpace Developer",
         company_address: "Work From Home",
         icon: tesla,
         iconBg: "#E6DEDD",
-        date: "Jan 2022 - Apr 2022",
+        date: "Apr 2021 - Sep 2021",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -158,7 +158,7 @@ const experiences = [
         company_address: "Ghaziabad",
         icon: meta,
         iconBg: "#E6DEDD",
-        date: "2019",
+        date: "Oct 2019 - Mar 2020",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
