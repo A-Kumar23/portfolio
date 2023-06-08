@@ -30,6 +30,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import cbse from "./education/Cbse-logo.png"
+import du from "./education/University_of_Delhi.png"
+import ignou from "./education/IGNOU_logo.png"
+
 export {
   logo,
   backend,
@@ -59,4 +63,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  cbse,
+  du,
+  ignou,
 };

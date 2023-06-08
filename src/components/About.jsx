@@ -5,6 +5,7 @@ import { styles } from '../utils/styles';
 import { services } from '../constants/constant';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
+import Education from './Education';
 
 const ServicesCard = ({title, index, icon}) => {
   return (
@@ -49,6 +50,8 @@ const About = () => {
             ))
           }
       </div>
+
+      <Education/>
     </>
   )
 }

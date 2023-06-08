@@ -23,6 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    ignou,
+    du,
+    cbse,
 } from "../assets";
 
 export const navLinks = [
@@ -46,11 +49,15 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "React UI Developer",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "Web Designer",
+        icon: mobile,
+    },
+    {
+        title: "Graphic Designer",
         icon: backend,
     },
     {
@@ -116,59 +123,85 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "React.js UI Developer",
+        company_name: "Cliffex Software Consulting Pvt. Ltd.",
+        company_address: "Noida",
         icon: starbucks,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "Sep 2022 - Present",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
+        
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "Graphic Designer (Intern)",
+        company_name: "Wextern Developer",
+        company_address: "Work From Home",
         icon: tesla,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "Jan 2022 - Apr 2022",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
+
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
+        title: "Graphic Designer (Intern)",
+        company_name: "DigitalEsprit",
+        company_address: "Ghaziabad",
         icon: meta,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "2019",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
+        
     },
 ];
 
+const educations = [
+    {
+        title: "Bachelor of Computer Application",
+        company_name: "IGNOU",
+        icon: ignou,
+        iconBg: "#abe8ff",
+        date: "2020 - Present",
+    },
+    {
+        title: "Bachelor of Commerce",
+        company_name: "Delhi University",
+        icon: du,
+        iconBg: "#ddb2d2",
+        date: "2017 - 2020",
+        
+    },
+    {
+        title: "Senior School",
+        company_name: "CBSE",
+        icon: cbse,
+        iconBg: "#E6DEDD",
+        date: "2015 - 2017",
+        
+    },
+    {
+        title: "High School",
+        company_name: "CBSE",
+        icon: cbse,
+        iconBg: "#E6DEDD",
+        date: "2013 - 2015",
+        
+    },
+];
 const testimonials = [
     {
         testimonial:
@@ -262,4 +295,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, educations, testimonials, projects };
