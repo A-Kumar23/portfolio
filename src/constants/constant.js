@@ -4,17 +4,13 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
     redux,
     tailwind,
-    nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
+
     meta,
     starbucks,
     tesla,
@@ -22,7 +18,7 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
+
     ignou,
     du,
     cbse,
@@ -33,6 +29,15 @@ import {
     github,
     filmpire,
     code,
+    hybridClothing,
+    infiniteScroll,
+    jokesTeller,
+    quoteGenerator,
+    bootstrap,
+    afterEffects,
+    premierePro,
+    illustrator,
+    photoshop,
 } from "../assets";
 
 export const navLinks = [
@@ -87,10 +92,6 @@ const technologies = [
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
         name: "React JS",
         icon: reactjs,
     },
@@ -103,28 +104,28 @@ const technologies = [
         icon: tailwind,
     },
     {
-        name: "Node JS",
-        icon: nodejs,
-    },
-    {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
+        name: "Bootstrap CSS",
+        icon: bootstrap,
     },
     {
         name: "git",
         icon: git,
     },
     {
-        name: "figma",
-        icon: figma,
+        name: "Adobe Illustrator",
+        icon: illustrator,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "Adobe Photoshop",
+        icon: photoshop,
+    },
+    {
+        name: "Adobe After Effects",
+        icon: afterEffects,
+    },
+    {
+        name: "Adobe Premiere Pro",
+        icon: premierePro,
     },
 ];
 
@@ -142,10 +143,10 @@ const experiences = [
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
-        
+
     },
     {
-        title: "Graphic Designer (Intern)",
+        title: "Graphic Designer",
         company_name: "GreaySpace Developer",
         company_address: "Work From Home",
         icon: tesla,
@@ -160,7 +161,7 @@ const experiences = [
 
     },
     {
-        title: "Graphic Designer (Intern)",
+        title: "Graphic Designer",
         company_name: "DigitalEsprit",
         company_address: "Ghaziabad",
         icon: meta,
@@ -172,7 +173,7 @@ const experiences = [
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
-        
+
     },
 ];
 
@@ -190,7 +191,7 @@ const educations = [
         icon: du,
         iconBg: "#ddb2d2",
         date: "2017 - 2020",
-        
+
     },
     {
         title: "Senior School",
@@ -198,7 +199,7 @@ const educations = [
         icon: cbse,
         iconBg: "#E6DEDD",
         date: "2015 - 2017",
-        
+
     },
     {
         title: "High School",
@@ -206,7 +207,7 @@ const educations = [
         icon: cbse,
         iconBg: "#E6DEDD",
         date: "2013 - 2015",
-        
+
     },
 ];
 const testimonials = [
@@ -256,76 +257,140 @@ const projects = [
             },
         ],
         image: filmpire,
-        source_live_link: "https://github.com/",
-        source_code_link: "https://github.com/",
+        source_live_link: "https://https://filmpire-akumar23.netlify.app/.com/",
+        source_code_link: "https://github.com/A-Kumar23/filmpire2.0/",
     },
     {
-        name: "Job IT",
+        name: "Hybrid Clothing",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A web-based platform allows search for clothing based on category. Additionally, there are checkout , add to cart features and login with help of firebase.",
         tags: [
             {
-                name: "react",
+                name: "reactJS",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "reactContext",
                 color: "green-text-gradient",
+            },
+            {
+                name: "firebase",
+                color: "orange-text-gradient",
             },
             {
                 name: "scss",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_live_link: "https://github.com/",
-        source_code_link: "https://github.com/",
-    },
+        image: hybridClothing,
+        source_live_link: "https://hybridclothingcontext.netlify.app/",
+        source_code_link: "https://github.com/A-Kumar23/hybrid-clothing",
+    }
+];
+
+const miniProjects = [
     {
-        name: "Trip Guide",
+        name: "Infinity Scroll",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A web-based platform allows search for clothing based on category. Additionally, there are checkout , add to cart features and login with help of firebase.",
+        image: infiniteScroll,
         tags: [
             {
-                name: "nextjs",
+                name: "html",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "css",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "js",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "unsplashApi",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_live_link: "https://github.com/",
-        source_code_link: "https://github.com/",
+        source_live_link: "https://infnity-scroll.netlify.app/",
+        source_code_link: "https://github.com/A-Kumar23/WebDev-Projects/tree/main/Infinite%20Scroll",
     },
-];
+    {
+        name: "Jokes Teller",
+        description:
+            "A web-based platform allows search for clothing based on category. Additionally, there are checkout , add to cart features and login with help of firebase.",
+        image: jokesTeller,
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "js",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "jokeApi",
+                color: "pink-text-gradient",
+            },
+        ],
+        source_live_link: "https://jokes-teller-akumar.netlify.app/",
+        source_code_link: "https://github.com/A-Kumar23/WebDev-Projects/tree/main/Jokes%20Teller",
+    },
+    {
+        name: "Quote Generator",
+        description:
+            "A web-based platform allows search for clothing based on category. Additionally, there are checkout , add to cart features and login with help of firebase.",
+        image: quoteGenerator,
+        tags: [
+            {
+                name: "reactJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "reactContext",
+                color: "green-text-gradient",
+            },
+            {
+                name: "firebase",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "scss",
+                color: "pink-text-gradient",
+            },
+        ],
+        source_live_link: "https://quote-generator-akumar23.netlify.app/",
+        source_code_link: "https://github.com/A-Kumar23/WebDev-Projects/tree/main/Quote%20Generator",
+    },
 
-const socialMedias = [
-        {
-            name: "Github",
-            profile_link: "https://github.com/A-Kumar23",
-            icon: github,
-        },
-        {
-            name: "Linkedin",
-            profile_link: "https://www.linkedin.com/in/arun-kanaujia-960761130",
-            icon: linkedin,
-        },
-        {
-            name: "Instagram",
-            profile_link: "https://instagram.com/hybrid_creation_?igshid=MzNlNGNkZWQ4Mg==",
-            icon: instagram,
-        },
-        {
-            name: "Twitter",
-            profile_link: "https://twitter.com/",
-            icon: twitter,
-        }
 ]
 
-export { services, technologies, experiences, educations, testimonials, projects, socialMedias };
+const socialMedias = [
+    {
+        name: "Github",
+        profile_link: "https://github.com/A-Kumar23",
+        icon: github,
+    },
+    {
+        name: "Linkedin",
+        profile_link: "https://www.linkedin.com/in/arun-kanaujia-960761130",
+        icon: linkedin,
+    },
+    {
+        name: "Instagram",
+        profile_link: "https://instagram.com/hybrid_creation_?igshid=MzNlNGNkZWQ4Mg==",
+        icon: instagram,
+    },
+    {
+        name: "Twitter",
+        profile_link: "https://twitter.com/",
+        icon: twitter,
+    }
+]
+
+export { services, technologies, experiences, educations, testimonials, projects, socialMedias, miniProjects };

@@ -3,34 +3,38 @@ import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { code, link } from '../assets';
 import { styles } from '../utils/styles';
-import { projects } from '../constants/constant';
+import { projects, miniProjects } from '../constants/constant';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link, }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, source_live_link }) => {
   return (
     <>
       <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)} >
         <Tilt
           options={{ max: 45, scale: 1, speed: 450 }}
-          className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-[450px]"
+          className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full "
         >
-          <div className='relative w-full h-full'>
+          <div className='relative w-full'>
             <img src={image} alt={name} className='w-full h-full object-cover justify-end rounded-2xl' />
 
             <div className='absolute inset-0 flex justify-end m-3 card-img-hover gap-1'>
-            <div
-                onClick={() => window.open(source_code_link, '_blank')}
+              <a
+                href={source_live_link} target='_blank'
+                title='live'
+                // onClick={() => window.open(source_code_link, '_blank')}
                 className='bg-white-100 border border-neutral-700 w-8 h-8 rounded-full flex justify-center items-center cursor-pointer'
               >
                 <img src={link} alt='link' className='w-full h-full object-cover' />
-              </div>
-              <div
-                onClick={() => window.open(source_code_link, '_blank')}
+              </a>
+              <a
+                href={source_code_link} target='_blank'
+                title='code'
+                // onClick={() => window.open(source_code_link, '_blank')}
                 className='bg-white-100 border border-neutral-700 w-8 h-8 rounded-full flex justify-center items-center cursor-pointer'
               >
                 <img src={code} alt='code' className='w-full h-full object-cover' />
-              </div>
+              </a>
             </div>
           </div>
           <div className='mt-5'>
@@ -47,6 +51,53 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
     </>
   )
 }
+
+const MiniProjectCard = ({ index, name, description, tags, image, source_code_link, source_live_link}) => {
+  console.log(image);
+  return (
+    <>
+    <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)} >
+      <Tilt
+        options={{ max: 45, scale: 1, speed: 450 }}
+        className="bg-tertiary flex flex-col justify-center items-center rounded-2xl sm:w-[200px] w-full p-2 "
+      >
+        <div className='relative w-[180px] h-[180px]'>
+          <img src={image} alt={name} className='w-full h-full object-cover justify-end rounded-2xl' />
+
+          <div className='absolute inset-0 flex justify-end m-3 card-img-hover gap-1'>
+            <a
+              href={source_live_link} target='_blank'
+              title='live'
+              // onClick={() => window.open(source_code_link, '_blank')}
+              className='bg-white-100 border border-neutral-700 w-6 h-6 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img src={link} alt='link' className='w-full h-full object-cover' />
+            </a>
+            <a
+              href={source_code_link} target='_blank'
+              title='code'
+              // onClick={() => window.open(source_code_link, '_blank')}
+              className='bg-white-100 border border-neutral-700 w-6 h-6 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img src={code} alt='code' className='w-full h-full object-cover' />
+            </a>
+          </div>
+        </div>
+        <div className='mt-2'>
+          <h3 className='text-white font-bold text-[18px]' >{name}</h3>
+          {/* <p className='mt-2 text-secondary text-[14px]' >{description}</p> */}
+        </div>
+        <div className='mt-2 flex flex-wrap gap-2'>
+          {tags.map((tag) => (
+            <p key={tag.name} className={`text-[10px] ${tag.color} leading-[8px]`} >#{tag.name}</p>
+          ))}
+        </div>
+      </Tilt>
+    </motion.div>
+  </>
+  )
+}
+
 
 const Works = () => {
   return (
@@ -80,7 +131,21 @@ const Works = () => {
         ))}
       </div>
 
+      <motion.div
+        variants={textVariant()}
+        className='mt-10'
+      >
+        <h2 className='text-white font-bold text-[34px]'  >
+          Mini-Projects.
+        </h2>
+        <div className='mt-10 flex flex-wrap gap-5'>
+          {miniProjects.map((project, index) => (
+            <MiniProjectCard key={`mini-project-${index}`} index={index}  {...project}  />
+          ))
 
+          }
+        </div>
+      </motion.div>
     </>
   )
 }

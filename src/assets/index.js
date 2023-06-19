@@ -8,18 +8,17 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import afterEffects from "./tech/Adobe_After_Effects_CC_icon.png";
+import illustrator from "./tech/Adobe_Illustrator_CC_icon.png";
+import photoshop from "./tech/Adobe_Photoshop_CC_icon.png";
+import premierePro from "./tech/Adobe_Premiere_Pro_CC_icon.png";
+import bootstrap from "./tech/Bootstrap_logo.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -43,6 +42,11 @@ import code from "./code.png"
 import link from "./link.png"
 
 import filmpire from "./projects/filmpire.png"
+import hybridClothing from "./projects/hybrid clothing.png"
+import infiniteScroll from "./projects/infinite-scroll.png"
+import jokesTeller from "./projects/jokes-teller.png"
+import quoteGenerator from "./projects/quote-generator.png"
+
 export {
   logo,
   backend,
@@ -53,18 +57,19 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
-  mongodb,
-  nodejs,
   reactjs,
   redux,
   tailwind,
-  typescript,
-  threejs,
+  afterEffects,
+  illustrator,
+  premierePro,
+  photoshop,
+  illustrator,
+  bootstrap,
+
   meta,
   shopify,
   starbucks,
@@ -82,4 +87,8 @@ export {
   code,
   link,
   filmpire,
+  hybridClothing,
+  infiniteScroll,
+  jokesTeller,
+  quoteGenerator,
 };
