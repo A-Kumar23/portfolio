@@ -26,6 +26,13 @@ import {
     ignou,
     du,
     cbse,
+    githubS,
+    linkedin,
+    instagram,
+    twitter,
+    github,
+    filmpire,
+    code,
 } from "../assets";
 
 export const navLinks = [
@@ -63,7 +70,7 @@ const services = [
     {
         title: "Content Creator",
         icon: creator,
-    },
+    }
 ];
 
 const technologies = [
@@ -231,24 +238,25 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Filmpire",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "A web-based platform can look up films by their names or categories. Additionally, you can read more about the cast and the movie description.",
         tags: [
             {
-                name: "react",
+                name: "reactJS",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "redux",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "MUI",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: filmpire,
+        source_live_link: "https://github.com/",
         source_code_link: "https://github.com/",
     },
     {
@@ -270,6 +278,7 @@ const projects = [
             },
         ],
         image: jobit,
+        source_live_link: "https://github.com/",
         source_code_link: "https://github.com/",
     },
     {
@@ -291,8 +300,32 @@ const projects = [
             },
         ],
         image: tripguide,
+        source_live_link: "https://github.com/",
         source_code_link: "https://github.com/",
     },
 ];
 
-export { services, technologies, experiences, educations, testimonials, projects };
+const socialMedias = [
+        {
+            name: "Github",
+            profile_link: "https://github.com/A-Kumar23",
+            icon: github,
+        },
+        {
+            name: "Linkedin",
+            profile_link: "https://www.linkedin.com/in/arun-kanaujia-960761130",
+            icon: linkedin,
+        },
+        {
+            name: "Instagram",
+            profile_link: "https://instagram.com/hybrid_creation_?igshid=MzNlNGNkZWQ4Mg==",
+            icon: instagram,
+        },
+        {
+            name: "Twitter",
+            profile_link: "https://twitter.com/",
+            icon: twitter,
+        }
+]
+
+export { services, technologies, experiences, educations, testimonials, projects, socialMedias };

@@ -34,6 +34,15 @@ import cbse from "./education/Cbse-logo.png"
 import du from "./education/University_of_Delhi.png"
 import ignou from "./education/IGNOU_logo.png"
 
+import githubS from "./social/github.png";
+import instagram from "./social/instagram.png";
+import linkedin from "./social/linkedin.png";
+import twitter from "./social/twitter.png";
+
+import code from "./code.png"
+import link from "./link.png"
+
+import filmpire from "./projects/filmpire.png"
 export {
   logo,
   backend,
@@ -66,4 +75,11 @@ export {
   cbse,
   du,
   ignou,
+  githubS,
+  instagram,
+  twitter,
+  linkedin,
+  code,
+  link,
+  filmpire,
 };
