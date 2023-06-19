@@ -38,6 +38,9 @@ import {
     premierePro,
     illustrator,
     photoshop,
+    cliffex,
+    digital,
+    graySpace,
 } from "../assets";
 
 export const navLinks = [
@@ -134,7 +137,7 @@ const experiences = [
         title: "React.js UI Developer",
         company_name: "Cliffex Software Consulting Pvt. Ltd.",
         company_address: "Noida",
-        icon: starbucks,
+        icon: cliffex,
         iconBg: "#383E56",
         date: "Sep 2022 - Present",
         points: [
@@ -149,7 +152,7 @@ const experiences = [
         title: "Graphic Designer",
         company_name: "GreaySpace Developer",
         company_address: "Work From Home",
-        icon: tesla,
+        icon: graySpace,
         iconBg: "#E6DEDD",
         date: "Apr 2021 - Sep 2021",
         points: [
@@ -164,7 +167,7 @@ const experiences = [
         title: "Graphic Designer",
         company_name: "DigitalEsprit",
         company_address: "Ghaziabad",
-        icon: meta,
+        icon: digital,
         iconBg: "#E6DEDD",
         date: "Oct 2019 - Mar 2020",
         points: [

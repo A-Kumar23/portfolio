@@ -24,6 +24,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import cliffex from "./company/Cliffex.png";
+import digital from "./company/Digital.jpg";
+import graySpace from "./company/graySpace.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -74,6 +77,10 @@ export {
   shopify,
   starbucks,
   tesla,
+  cliffex,
+  digital,
+  graySpace,
+
   carrent,
   jobit,
   tripguide,
