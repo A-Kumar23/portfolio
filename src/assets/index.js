@@ -70,7 +70,6 @@ export {
   illustrator,
   premierePro,
   photoshop,
-  illustrator,
   bootstrap,
 
   meta,
