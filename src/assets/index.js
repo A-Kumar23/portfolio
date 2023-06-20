@@ -67,7 +67,6 @@ export {
   redux,
   tailwind,
   afterEffects,
-  illustrator,
   premierePro,
   photoshop,
   illustrator,
