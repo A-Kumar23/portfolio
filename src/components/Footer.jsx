@@ -1,12 +1,16 @@
 import React from 'react'
 import { styles } from '../utils/styles';
 import { socialMedias } from '../constants/constant';
+import { git } from '../assets';
 
 const Footer = () => {
     return (
         <footer
             className={`${styles.paddingX} w-full  py-1`}
         >
+        <div>
+       
+        </div>
             <div className='w-full flex flex-col items-center justify-center max-w-7xl mx-auto'>
                 <div className='flex justify-center items-center '>
 

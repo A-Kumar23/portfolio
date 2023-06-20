@@ -351,19 +351,19 @@ const miniProjects = [
         image: quoteGenerator,
         tags: [
             {
-                name: "reactJS",
+                name: "html",
                 color: "blue-text-gradient",
             },
             {
-                name: "reactContext",
+                name: "css",
                 color: "green-text-gradient",
             },
             {
-                name: "firebase",
+                name: "js",
                 color: "orange-text-gradient",
             },
             {
-                name: "scss",
+                name: "quoteApi",
                 color: "pink-text-gradient",
             },
         ],
