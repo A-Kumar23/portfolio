@@ -141,10 +141,10 @@ const experiences = [
         iconBg: "#383E56",
         date: "Sep 2022 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Worked on responsive design, making interfaces adaptable across different devices and screen sizes",
+            "Implement visual design concepts into functional user interfaces using HTML, CSS, Bootstrap, JavaScript and React.",
+            "Work together with UX designers to improve user experience and unify design vision.",
+            "Update the user interface for old projects and resolve the UI error.",
         ],
 
     },
@@ -156,10 +156,9 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "Apr 2021 - Sep 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Creating visual graphics according to the client's requirement",
+            "Creating visual graphics for use in motion graphics",
+            "Enhancing the old graphic image into a clear visuals graphic.",
         ],
 
     },
@@ -171,10 +170,8 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "Oct 2019 - Mar 2020",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Creating social media visuals for posting online.",
+            "Creating short motion graphic visuals for social media",
         ],
 
     },
