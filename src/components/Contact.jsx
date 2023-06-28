@@ -5,7 +5,7 @@ import { styles } from "../utils/styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import Resume from "../assets/resume/Resume.pdf"
+import Arun_Resume from "../assets/resume/Resume.pdf"
 
 
 const Contact = () => {
@@ -116,7 +116,7 @@ const Contact = () => {
             >
               {loading ? "Sending..." : "Sent"}
             </button>
-            <a href={Resume} download={"Arun's Resume"}>
+            <a href={Arun_Resume} download={"Arun's Resume"}>
               <button
                 type="button"
                 className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl "
