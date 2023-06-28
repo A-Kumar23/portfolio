@@ -5,7 +5,7 @@ import { styles } from "../utils/styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import Arun_Resume from "../assets/resume/Resume.pdf"
+import Arun_Resume from "../assets/resume/Arun_Resume.pdf"
 
 
 const Contact = () => {
