@@ -107,7 +107,7 @@ const technologies = [
         icon: tailwind,
     },
     {
-        name: "Bootstrap CSS",
+        name: "Bootstrap 5",
         icon: bootstrap,
     },
     {
@@ -373,12 +373,12 @@ const miniProjects = [
 const socialMedias = [
     {
         name: "Github",
-        profile_link: "https://github.com/A-Kumar23",
+        profile_link: "https://github.com/arunkanaujia23",
         icon: github,
     },
     {
         name: "Linkedin",
-        profile_link: "https://www.linkedin.com/in/arun-kanaujia-960761130",
+        profile_link: "https://www.linkedin.com/in/arunkanaujia23",
         icon: linkedin,
     },
     {
